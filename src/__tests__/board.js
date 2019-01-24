@@ -1,12 +1,12 @@
 import React from 'react'
-import { Board } from '../components/board'
+import { PlayerBoard } from '../components/Playerboard'
 import { shallow, mount, render } from 'enzyme'
 
-describe('Board', function() {
+describe('PlayerBoard', function() {
   var wrapper
 
   it("should have 10 divs", function() {
-    wrapper = shallow(<Board />)
+    wrapper = shallow(<PlayerBoard />)
     const divs = wrapper.find('div')
     expect(divs.length).toBe(12)
   })
