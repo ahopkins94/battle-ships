@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoatLocationForm should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BoatLocationForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          Please enter your boats' coordinates below:
+        </div>,
+        <div>
+          <form>
+            The Dinghy:
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+              value="dinghyLocation"
+            />
+            <br />
+            <input
+              type="submit"
+              value="submit"
+            />
+          </form>
+        </div>,
+      ],
+      "id": "boatLocationForm",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please enter your boats' coordinates below:",
+        },
+        "ref": null,
+        "rendered": "Please enter your boats' coordinates below:",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <form>
+            The Dinghy:
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+              value="dinghyLocation"
+            />
+            <br />
+            <input
+              type="submit"
+              value="submit"
+            />
+          </form>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "The Dinghy:",
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+                value="dinghyLocation"
+              />,
+              <br />,
+              <input
+                type="submit"
+                value="submit"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "The Dinghy:",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Coordinate 1",
+                "type": "text",
+                "value": "dinghyLocation",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "type": "submit",
+                "value": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            Please enter your boats' coordinates below:
+          </div>,
+          <div>
+            <form>
+              The Dinghy:
+              <br />
+              <input
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+                value="dinghyLocation"
+              />
+              <br />
+              <input
+                type="submit"
+                value="submit"
+              />
+            </form>
+          </div>,
+        ],
+        "id": "boatLocationForm",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please enter your boats' coordinates below:",
+          },
+          "ref": null,
+          "rendered": "Please enter your boats' coordinates below:",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <form>
+              The Dinghy:
+              <br />
+              <input
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+                value="dinghyLocation"
+              />
+              <br />
+              <input
+                type="submit"
+                value="submit"
+              />
+            </form>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "The Dinghy:",
+                <br />,
+                <input
+                  onChange={[Function]}
+                  placeholder="Coordinate 1"
+                  type="text"
+                  value="dinghyLocation"
+                />,
+                <br />,
+                <input
+                  type="submit"
+                  value="submit"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "The Dinghy:",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 1",
+                  "type": "text",
+                  "value": "dinghyLocation",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "type": "submit",
+                  "value": "submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "form",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
