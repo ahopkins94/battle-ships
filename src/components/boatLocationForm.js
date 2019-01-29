@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 export class BoatLocationForm extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      dinghyLocation: Array(3).fill(null)
+      dinghyLocation: Array(3).fill(null),
+      submitted: false
     }
 
   }
@@ -18,14 +19,19 @@ export class BoatLocationForm extends React.Component {
     })
   }
 
+  handleSubmit(event) {
+    event.preventDefault()
+    this.props.history.push('/game')
+  }
+
   render() {
     return(
       <div id="boatLocationForm">
       <div>Please enter your boats' coordinates below:</div>
       <div>
-      <form>
+      <form onSubmit={(e) => this.handleSubmit(e)}>
         The Dinghy:
-        <br></br><input type="text" value="dinghyLocation" placeholder="Coordinate 1" onChange={(e) => this.handleChange(0, e)}></input>
+        <br></br><input type="text" name="dinghyLocation" placeholder="Coordinate 1" onChange={(e) => this.handleChange(0, e)}></input>
         <br></br><input type="submit" value="submit"></input>
       </form>
       </div>
