@@ -1,5 +1,4 @@
 import React from 'react'
-import { BoatLocationForm } from './boatLocationForm'
 
 export class Game extends React.Component {
 
@@ -7,7 +6,7 @@ export class Game extends React.Component {
     return(
       <div id="Game">
       <div>
-        <BoatLocationForm />
+        Hello
       </div>
       </div>
     )
