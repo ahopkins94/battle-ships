@@ -25,9 +25,8 @@ describe('BoatLocationForm', function() {
   })
 
   it("should change history", function() {
-    const historyMock = { push: jest.fn() }
-    wrapper = mount(<BoatLocationForm history={historyMock}/>)
+    wrapper = mount(<BoatLocationForm />)
     wrapper.find('form').simulate('submit')
-    expect(historyMock.push.mock.calls[0]).toEqual(['/game'])
+    expect(wrapper.state('submitted')).toEqual(true)
   })
 })
