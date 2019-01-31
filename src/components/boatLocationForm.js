@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Game } from './game'
 
 export class BoatLocationForm extends React.Component {
   constructor(props) {
@@ -6,6 +7,7 @@ export class BoatLocationForm extends React.Component {
 
     this.state = {
       dinghyLocation: Array(3).fill(null),
+      allPlayerLocations: Array(60).fill(null),
       submitted: false
     }
 
@@ -13,7 +15,10 @@ export class BoatLocationForm extends React.Component {
 
   handleChange(index, event) {
     this.setState({
-      [event.target.value]: this.state.dinghyLocation.map((coord, i) => (
+      [event.target.name]: this.state.dinghyLocation.map((coord, i) => (
+        i === index ? event.target.value: coord
+      )),
+      allPlayerLocations: this.state.allPlayerLocations.map((coord, i) => (
         i === index ? event.target.value: coord
       ))
     })
@@ -21,10 +26,17 @@ export class BoatLocationForm extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault()
-    this.props.history.push('/game')
+    this.setState({
+      submitted: true
+    })
   }
 
   render() {
+    if (this.state.submitted === true) {
+      return(
+        <Game dinghyLocation={this.state.dinghyLocation} allPlayerLocations={this.state.allPlayerLocations} />
+      )
+    }
     return(
       <div id="boatLocationForm">
       <div>Please enter your boats' coordinates below:</div>
@@ -32,6 +44,8 @@ export class BoatLocationForm extends React.Component {
       <form onSubmit={(e) => this.handleSubmit(e)}>
         The Dinghy:
         <br></br><input type="text" name="dinghyLocation" placeholder="Coordinate 1" onChange={(e) => this.handleChange(0, e)}></input>
+        <br></br><input type="text" name="dinghyLocation" placeholder="Coordinate 2" onChange={(e) => this.handleChange(1, e)}></input>
+        <br></br><input type="text" name="dinghyLocation" placeholder="Coordinate 3" onChange={(e) => this.handleChange(2, e)}></input>
         <br></br><input type="submit" value="submit"></input>
       </form>
       </div>
