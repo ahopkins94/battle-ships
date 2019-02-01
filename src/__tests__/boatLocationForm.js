@@ -26,9 +26,21 @@ describe('BoatLocationForm', function() {
     }, 20)
   })
 
+  it("should set state and change submarineLocation", function() {
+    wrapper = mount(<BoatLocationForm />)
+    wrapper.find('input').at(3).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(4).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(5).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(6).simulate('change', { target: { name: 'Hello' } })
+    setTimeout(() => {
+      expect(wrapper.state('submarineLocation')).toEqual('Hello')
+    }, 20)
+  })
+
   it("should change history", function() {
     wrapper = mount(<BoatLocationForm />)
     wrapper.find('form').simulate('submit')
     expect(wrapper.state('submitted')).toEqual(true)
   })
+
 })
