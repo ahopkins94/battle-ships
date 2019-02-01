@@ -19,6 +19,8 @@ describe('BoatLocationForm', function() {
   it("should set state and change dinghyLocation", function() {
     wrapper = mount(<BoatLocationForm />)
     wrapper.find('input').first().simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(1).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(2).simulate('change', { target: { name: 'Hello' } })
     setTimeout(() => {
       expect(wrapper.state('dinghyLocation')).toEqual('Hello')
     }, 20)
