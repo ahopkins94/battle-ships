@@ -37,6 +37,34 @@ describe('BoatLocationForm', function() {
     }, 20)
   })
 
+  it("should set state and change destroyerLocation", function() {
+    wrapper = mount(<BoatLocationForm />)
+    wrapper.find('input').at(7).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(8).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(9).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(10).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(11).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(12).simulate('change', { target: { name: 'Hello' } })
+    setTimeout(() => {
+      expect(wrapper.state('destroyerLocation')).toEqual('Hello')
+    }, 20)
+  })
+
+  it("should set state and change battleshipLocation", function() {
+    wrapper = mount(<BoatLocationForm />)
+    wrapper.find('input').at(13).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(14).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(15).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(16).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(17).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(18).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(19).simulate('change', { target: { name: 'Hello' } })
+    wrapper.find('input').at(20).simulate('change', { target: { name: 'Hello' } })
+    setTimeout(() => {
+      expect(wrapper.state('destroyerLocation')).toEqual('Hello')
+    }, 20)
+  })
+
   it("should change history", function() {
     wrapper = mount(<BoatLocationForm />)
     wrapper.find('form').simulate('submit')
