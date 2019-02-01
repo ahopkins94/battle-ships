@@ -28,23 +28,51 @@ ShallowWrapper {
             The Dinghy:
             <br />
             <input
-              name="dinghyLocation"
+              name="dinghyLocation1"
               onChange={[Function]}
               placeholder="Coordinate 1"
               type="text"
             />
             <br />
             <input
-              name="dinghyLocation"
+              name="dinghyLocation2"
               onChange={[Function]}
               placeholder="Coordinate 2"
               type="text"
             />
             <br />
             <input
-              name="dinghyLocation"
+              name="dinghyLocation3"
               onChange={[Function]}
               placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation1"
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation2"
+              onChange={[Function]}
+              placeholder="Coordinate 2"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation3"
+              onChange={[Function]}
+              placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation4"
+              onChange={[Function]}
+              placeholder="Coordinate 4"
               type="text"
             />
             <br />
@@ -81,23 +109,51 @@ ShallowWrapper {
             The Dinghy:
             <br />
             <input
-              name="dinghyLocation"
+              name="dinghyLocation1"
               onChange={[Function]}
               placeholder="Coordinate 1"
               type="text"
             />
             <br />
             <input
-              name="dinghyLocation"
+              name="dinghyLocation2"
               onChange={[Function]}
               placeholder="Coordinate 2"
               type="text"
             />
             <br />
             <input
-              name="dinghyLocation"
+              name="dinghyLocation3"
               onChange={[Function]}
               placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation1"
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation2"
+              onChange={[Function]}
+              placeholder="Coordinate 2"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation3"
+              onChange={[Function]}
+              placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="submarineLocation4"
+              onChange={[Function]}
+              placeholder="Coordinate 4"
               type="text"
             />
             <br />
@@ -117,23 +173,51 @@ ShallowWrapper {
               "The Dinghy:",
               <br />,
               <input
-                name="dinghyLocation"
+                name="dinghyLocation1"
                 onChange={[Function]}
                 placeholder="Coordinate 1"
                 type="text"
               />,
               <br />,
               <input
-                name="dinghyLocation"
+                name="dinghyLocation2"
                 onChange={[Function]}
                 placeholder="Coordinate 2"
                 type="text"
               />,
               <br />,
               <input
-                name="dinghyLocation"
+                name="dinghyLocation3"
                 onChange={[Function]}
                 placeholder="Coordinate 3"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="submarineLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="submarineLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="submarineLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="submarineLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
                 type="text"
               />,
               <br />,
@@ -161,7 +245,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "name": "dinghyLocation",
+                "name": "dinghyLocation1",
                 "onChange": [Function],
                 "placeholder": "Coordinate 1",
                 "type": "text",
@@ -184,7 +268,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "name": "dinghyLocation",
+                "name": "dinghyLocation2",
                 "onChange": [Function],
                 "placeholder": "Coordinate 2",
                 "type": "text",
@@ -207,9 +291,101 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "name": "dinghyLocation",
+                "name": "dinghyLocation3",
                 "onChange": [Function],
                 "placeholder": "Coordinate 3",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "submarineLocation1",
+                "onChange": [Function],
+                "placeholder": "Coordinate 1",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "submarineLocation2",
+                "onChange": [Function],
+                "placeholder": "Coordinate 2",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "submarineLocation3",
+                "onChange": [Function],
+                "placeholder": "Coordinate 3",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "submarineLocation4",
+                "onChange": [Function],
+                "placeholder": "Coordinate 4",
                 "type": "text",
               },
               "ref": null,
@@ -262,23 +438,51 @@ ShallowWrapper {
               The Dinghy:
               <br />
               <input
-                name="dinghyLocation"
+                name="dinghyLocation1"
                 onChange={[Function]}
                 placeholder="Coordinate 1"
                 type="text"
               />
               <br />
               <input
-                name="dinghyLocation"
+                name="dinghyLocation2"
                 onChange={[Function]}
                 placeholder="Coordinate 2"
                 type="text"
               />
               <br />
               <input
-                name="dinghyLocation"
+                name="dinghyLocation3"
                 onChange={[Function]}
                 placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
                 type="text"
               />
               <br />
@@ -315,23 +519,51 @@ ShallowWrapper {
               The Dinghy:
               <br />
               <input
-                name="dinghyLocation"
+                name="dinghyLocation1"
                 onChange={[Function]}
                 placeholder="Coordinate 1"
                 type="text"
               />
               <br />
               <input
-                name="dinghyLocation"
+                name="dinghyLocation2"
                 onChange={[Function]}
                 placeholder="Coordinate 2"
                 type="text"
               />
               <br />
               <input
-                name="dinghyLocation"
+                name="dinghyLocation3"
                 onChange={[Function]}
                 placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="submarineLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
                 type="text"
               />
               <br />
@@ -351,23 +583,51 @@ ShallowWrapper {
                 "The Dinghy:",
                 <br />,
                 <input
-                  name="dinghyLocation"
+                  name="dinghyLocation1"
                   onChange={[Function]}
                   placeholder="Coordinate 1"
                   type="text"
                 />,
                 <br />,
                 <input
-                  name="dinghyLocation"
+                  name="dinghyLocation2"
                   onChange={[Function]}
                   placeholder="Coordinate 2"
                   type="text"
                 />,
                 <br />,
                 <input
-                  name="dinghyLocation"
+                  name="dinghyLocation3"
                   onChange={[Function]}
                   placeholder="Coordinate 3"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="submarineLocation1"
+                  onChange={[Function]}
+                  placeholder="Coordinate 1"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="submarineLocation2"
+                  onChange={[Function]}
+                  placeholder="Coordinate 2"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="submarineLocation3"
+                  onChange={[Function]}
+                  placeholder="Coordinate 3"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="submarineLocation4"
+                  onChange={[Function]}
+                  placeholder="Coordinate 4"
                   type="text"
                 />,
                 <br />,
@@ -395,7 +655,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "name": "dinghyLocation",
+                  "name": "dinghyLocation1",
                   "onChange": [Function],
                   "placeholder": "Coordinate 1",
                   "type": "text",
@@ -418,7 +678,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "name": "dinghyLocation",
+                  "name": "dinghyLocation2",
                   "onChange": [Function],
                   "placeholder": "Coordinate 2",
                   "type": "text",
@@ -441,9 +701,101 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "name": "dinghyLocation",
+                  "name": "dinghyLocation3",
                   "onChange": [Function],
                   "placeholder": "Coordinate 3",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "submarineLocation1",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 1",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "submarineLocation2",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 2",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "submarineLocation3",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 3",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "submarineLocation4",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 4",
                   "type": "text",
                 },
                 "ref": null,
