@@ -12,13 +12,13 @@ export class Game extends React.Component {
   }
 
   render() {
+    console.log(this.props)
     return(
       <div id="Game">
       <div>
       <table border="1" width="1000" height="600">
         <tbody>
           <tr>
-            <th>{this.renderSquare(0)}</th>
             <th>{this.renderSquare(1)}</th>
             <th>{this.renderSquare(2)}</th>
             <th>{this.renderSquare(3)}</th>
@@ -28,9 +28,9 @@ export class Game extends React.Component {
             <th>{this.renderSquare(7)}</th>
             <th>{this.renderSquare(8)}</th>
             <th>{this.renderSquare(9)}</th>
+            <th>{this.renderSquare(10)}</th>
           </tr>
           <tr>
-            <td>{this.renderSquare(10)}</td>
             <td>{this.renderSquare(11)}</td>
             <td>{this.renderSquare(12)}</td>
             <td>{this.renderSquare(13)}</td>
@@ -40,9 +40,9 @@ export class Game extends React.Component {
             <td>{this.renderSquare(17)}</td>
             <td>{this.renderSquare(18)}</td>
             <td>{this.renderSquare(19)}</td>
+            <td>{this.renderSquare(20)}</td>
           </tr>
           <tr>
-          <td>{this.renderSquare(20)}</td>
           <td>{this.renderSquare(21)}</td>
           <td>{this.renderSquare(22)}</td>
           <td>{this.renderSquare(23)}</td>
@@ -52,9 +52,9 @@ export class Game extends React.Component {
           <td>{this.renderSquare(27)}</td>
           <td>{this.renderSquare(28)}</td>
           <td>{this.renderSquare(29)}</td>
+          <td>{this.renderSquare(30)}</td>
           </tr>
           <tr>
-          <td>{this.renderSquare(30)}</td>
           <td>{this.renderSquare(31)}</td>
           <td>{this.renderSquare(32)}</td>
           <td>{this.renderSquare(33)}</td>
@@ -64,9 +64,9 @@ export class Game extends React.Component {
           <td>{this.renderSquare(37)}</td>
           <td>{this.renderSquare(38)}</td>
           <td>{this.renderSquare(39)}</td>
+          <td>{this.renderSquare(40)}</td>
           </tr>
           <tr>
-          <td>{this.renderSquare(40)}</td>
           <td>{this.renderSquare(41)}</td>
           <td>{this.renderSquare(42)}</td>
           <td>{this.renderSquare(43)}</td>
@@ -76,9 +76,9 @@ export class Game extends React.Component {
           <td>{this.renderSquare(47)}</td>
           <td>{this.renderSquare(48)}</td>
           <td>{this.renderSquare(49)}</td>
+          <td>{this.renderSquare(50)}</td>
           </tr>
           <tr>
-          <td>{this.renderSquare(50)}</td>
           <td>{this.renderSquare(51)}</td>
           <td>{this.renderSquare(52)}</td>
           <td>{this.renderSquare(53)}</td>
@@ -88,6 +88,7 @@ export class Game extends React.Component {
           <td>{this.renderSquare(57)}</td>
           <td>{this.renderSquare(58)}</td>
           <td>{this.renderSquare(59)}</td>
+          <td>{this.renderSquare(60)}</td>
           </tr>
         </tbody>
       </table>
