@@ -23,7 +23,6 @@ export class BoatLocationForm extends React.Component {
       battleshipLocation2: null,
       battleshipLocation3: null,
       battleshipLocation4: null,
-      battleshipLocation1: null,
       battleshipLocation5: null,
       battleshipLocation6: null,
       battleshipLocation7: null,
