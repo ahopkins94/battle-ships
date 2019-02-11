@@ -16,19 +16,19 @@ export class Game extends React.Component {
     return(
       <div id="Game">
       <div>
-      <table border="1" width="1000" height="600">
+      <table>
         <tbody>
           <tr>
-            <th>{this.renderSquare(1)}</th>
-            <th>{this.renderSquare(2)}</th>
-            <th>{this.renderSquare(3)}</th>
-            <th>{this.renderSquare(4)}</th>
-            <th>{this.renderSquare(5)}</th>
-            <th>{this.renderSquare(6)}</th>
-            <th>{this.renderSquare(7)}</th>
-            <th>{this.renderSquare(8)}</th>
-            <th>{this.renderSquare(9)}</th>
-            <th>{this.renderSquare(10)}</th>
+            <td>{this.renderSquare(1)}</td>
+            <td>{this.renderSquare(2)}</td>
+            <td>{this.renderSquare(3)}</td>
+            <td>{this.renderSquare(4)}</td>
+            <td>{this.renderSquare(5)}</td>
+            <td>{this.renderSquare(6)}</td>
+            <td>{this.renderSquare(7)}</td>
+            <td>{this.renderSquare(8)}</td>
+            <td>{this.renderSquare(9)}</td>
+            <td>{this.renderSquare(10)}</td>
           </tr>
           <tr>
             <td>{this.renderSquare(11)}</td>
