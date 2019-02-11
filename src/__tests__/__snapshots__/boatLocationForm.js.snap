@@ -48,6 +48,8 @@ ShallowWrapper {
               type="text"
             />
             <br />
+            The Submarine:
+            <br />
             <input
               name="submarineLocation1"
               onChange={[Function]}
@@ -73,6 +75,108 @@ ShallowWrapper {
               name="submarineLocation4"
               onChange={[Function]}
               placeholder="Coordinate 4"
+              type="text"
+            />
+            <br />
+            The Destroyer:
+            <br />
+            <input
+              name="destroyerLocation1"
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation2"
+              onChange={[Function]}
+              placeholder="Coordinate 2"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation3"
+              onChange={[Function]}
+              placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation4"
+              onChange={[Function]}
+              placeholder="Coordinate 4"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation5"
+              onChange={[Function]}
+              placeholder="Coordinate 5"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation6"
+              onChange={[Function]}
+              placeholder="Coordinate 6"
+              type="text"
+            />
+            <br />
+            The Battleship:
+            <br />
+            <input
+              name="battleshipLocation1"
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation2"
+              onChange={[Function]}
+              placeholder="Coordinate 2"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation3"
+              onChange={[Function]}
+              placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation4"
+              onChange={[Function]}
+              placeholder="Coordinate 4"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation5"
+              onChange={[Function]}
+              placeholder="Coordinate 5"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation6"
+              onChange={[Function]}
+              placeholder="Coordinate 6"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation7"
+              onChange={[Function]}
+              placeholder="Coordinate 7"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation8"
+              onChange={[Function]}
+              placeholder="Coordinate 8"
               type="text"
             />
             <br />
@@ -129,6 +233,8 @@ ShallowWrapper {
               type="text"
             />
             <br />
+            The Submarine:
+            <br />
             <input
               name="submarineLocation1"
               onChange={[Function]}
@@ -154,6 +260,108 @@ ShallowWrapper {
               name="submarineLocation4"
               onChange={[Function]}
               placeholder="Coordinate 4"
+              type="text"
+            />
+            <br />
+            The Destroyer:
+            <br />
+            <input
+              name="destroyerLocation1"
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation2"
+              onChange={[Function]}
+              placeholder="Coordinate 2"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation3"
+              onChange={[Function]}
+              placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation4"
+              onChange={[Function]}
+              placeholder="Coordinate 4"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation5"
+              onChange={[Function]}
+              placeholder="Coordinate 5"
+              type="text"
+            />
+            <br />
+            <input
+              name="destroyerLocation6"
+              onChange={[Function]}
+              placeholder="Coordinate 6"
+              type="text"
+            />
+            <br />
+            The Battleship:
+            <br />
+            <input
+              name="battleshipLocation1"
+              onChange={[Function]}
+              placeholder="Coordinate 1"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation2"
+              onChange={[Function]}
+              placeholder="Coordinate 2"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation3"
+              onChange={[Function]}
+              placeholder="Coordinate 3"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation4"
+              onChange={[Function]}
+              placeholder="Coordinate 4"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation5"
+              onChange={[Function]}
+              placeholder="Coordinate 5"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation6"
+              onChange={[Function]}
+              placeholder="Coordinate 6"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation7"
+              onChange={[Function]}
+              placeholder="Coordinate 7"
+              type="text"
+            />
+            <br />
+            <input
+              name="battleshipLocation8"
+              onChange={[Function]}
+              placeholder="Coordinate 8"
               type="text"
             />
             <br />
@@ -193,6 +401,8 @@ ShallowWrapper {
                 type="text"
               />,
               <br />,
+              "The Submarine:",
+              <br />,
               <input
                 name="submarineLocation1"
                 onChange={[Function]}
@@ -218,6 +428,108 @@ ShallowWrapper {
                 name="submarineLocation4"
                 onChange={[Function]}
                 placeholder="Coordinate 4"
+                type="text"
+              />,
+              <br />,
+              "The Destroyer:",
+              <br />,
+              <input
+                name="destroyerLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="destroyerLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="destroyerLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="destroyerLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="destroyerLocation5"
+                onChange={[Function]}
+                placeholder="Coordinate 5"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="destroyerLocation6"
+                onChange={[Function]}
+                placeholder="Coordinate 6"
+                type="text"
+              />,
+              <br />,
+              "The Battleship:",
+              <br />,
+              <input
+                name="battleshipLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation5"
+                onChange={[Function]}
+                placeholder="Coordinate 5"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation6"
+                onChange={[Function]}
+                placeholder="Coordinate 6"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation7"
+                onChange={[Function]}
+                placeholder="Coordinate 7"
+                type="text"
+              />,
+              <br />,
+              <input
+                name="battleshipLocation8"
+                onChange={[Function]}
+                placeholder="Coordinate 8"
                 type="text"
               />,
               <br />,
@@ -300,6 +612,16 @@ ShallowWrapper {
               "rendered": null,
               "type": "input",
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "The Submarine:",
             Object {
               "instance": null,
               "key": undefined,
@@ -401,6 +723,348 @@ ShallowWrapper {
               "rendered": null,
               "type": "br",
             },
+            "The Destroyer:",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "destroyerLocation1",
+                "onChange": [Function],
+                "placeholder": "Coordinate 1",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "destroyerLocation2",
+                "onChange": [Function],
+                "placeholder": "Coordinate 2",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "destroyerLocation3",
+                "onChange": [Function],
+                "placeholder": "Coordinate 3",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "destroyerLocation4",
+                "onChange": [Function],
+                "placeholder": "Coordinate 4",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "destroyerLocation5",
+                "onChange": [Function],
+                "placeholder": "Coordinate 5",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "destroyerLocation6",
+                "onChange": [Function],
+                "placeholder": "Coordinate 6",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "The Battleship:",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation1",
+                "onChange": [Function],
+                "placeholder": "Coordinate 1",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation2",
+                "onChange": [Function],
+                "placeholder": "Coordinate 2",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation3",
+                "onChange": [Function],
+                "placeholder": "Coordinate 3",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation4",
+                "onChange": [Function],
+                "placeholder": "Coordinate 4",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation5",
+                "onChange": [Function],
+                "placeholder": "Coordinate 5",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation6",
+                "onChange": [Function],
+                "placeholder": "Coordinate 6",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation7",
+                "onChange": [Function],
+                "placeholder": "Coordinate 7",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "battleshipLocation8",
+                "onChange": [Function],
+                "placeholder": "Coordinate 8",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
             Object {
               "instance": null,
               "key": undefined,
@@ -458,6 +1122,8 @@ ShallowWrapper {
                 type="text"
               />
               <br />
+              The Submarine:
+              <br />
               <input
                 name="submarineLocation1"
                 onChange={[Function]}
@@ -483,6 +1149,108 @@ ShallowWrapper {
                 name="submarineLocation4"
                 onChange={[Function]}
                 placeholder="Coordinate 4"
+                type="text"
+              />
+              <br />
+              The Destroyer:
+              <br />
+              <input
+                name="destroyerLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation5"
+                onChange={[Function]}
+                placeholder="Coordinate 5"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation6"
+                onChange={[Function]}
+                placeholder="Coordinate 6"
+                type="text"
+              />
+              <br />
+              The Battleship:
+              <br />
+              <input
+                name="battleshipLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation5"
+                onChange={[Function]}
+                placeholder="Coordinate 5"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation6"
+                onChange={[Function]}
+                placeholder="Coordinate 6"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation7"
+                onChange={[Function]}
+                placeholder="Coordinate 7"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation8"
+                onChange={[Function]}
+                placeholder="Coordinate 8"
                 type="text"
               />
               <br />
@@ -539,6 +1307,8 @@ ShallowWrapper {
                 type="text"
               />
               <br />
+              The Submarine:
+              <br />
               <input
                 name="submarineLocation1"
                 onChange={[Function]}
@@ -564,6 +1334,108 @@ ShallowWrapper {
                 name="submarineLocation4"
                 onChange={[Function]}
                 placeholder="Coordinate 4"
+                type="text"
+              />
+              <br />
+              The Destroyer:
+              <br />
+              <input
+                name="destroyerLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation5"
+                onChange={[Function]}
+                placeholder="Coordinate 5"
+                type="text"
+              />
+              <br />
+              <input
+                name="destroyerLocation6"
+                onChange={[Function]}
+                placeholder="Coordinate 6"
+                type="text"
+              />
+              <br />
+              The Battleship:
+              <br />
+              <input
+                name="battleshipLocation1"
+                onChange={[Function]}
+                placeholder="Coordinate 1"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation2"
+                onChange={[Function]}
+                placeholder="Coordinate 2"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation3"
+                onChange={[Function]}
+                placeholder="Coordinate 3"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation4"
+                onChange={[Function]}
+                placeholder="Coordinate 4"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation5"
+                onChange={[Function]}
+                placeholder="Coordinate 5"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation6"
+                onChange={[Function]}
+                placeholder="Coordinate 6"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation7"
+                onChange={[Function]}
+                placeholder="Coordinate 7"
+                type="text"
+              />
+              <br />
+              <input
+                name="battleshipLocation8"
+                onChange={[Function]}
+                placeholder="Coordinate 8"
                 type="text"
               />
               <br />
@@ -603,6 +1475,8 @@ ShallowWrapper {
                   type="text"
                 />,
                 <br />,
+                "The Submarine:",
+                <br />,
                 <input
                   name="submarineLocation1"
                   onChange={[Function]}
@@ -628,6 +1502,108 @@ ShallowWrapper {
                   name="submarineLocation4"
                   onChange={[Function]}
                   placeholder="Coordinate 4"
+                  type="text"
+                />,
+                <br />,
+                "The Destroyer:",
+                <br />,
+                <input
+                  name="destroyerLocation1"
+                  onChange={[Function]}
+                  placeholder="Coordinate 1"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="destroyerLocation2"
+                  onChange={[Function]}
+                  placeholder="Coordinate 2"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="destroyerLocation3"
+                  onChange={[Function]}
+                  placeholder="Coordinate 3"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="destroyerLocation4"
+                  onChange={[Function]}
+                  placeholder="Coordinate 4"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="destroyerLocation5"
+                  onChange={[Function]}
+                  placeholder="Coordinate 5"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="destroyerLocation6"
+                  onChange={[Function]}
+                  placeholder="Coordinate 6"
+                  type="text"
+                />,
+                <br />,
+                "The Battleship:",
+                <br />,
+                <input
+                  name="battleshipLocation1"
+                  onChange={[Function]}
+                  placeholder="Coordinate 1"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation2"
+                  onChange={[Function]}
+                  placeholder="Coordinate 2"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation3"
+                  onChange={[Function]}
+                  placeholder="Coordinate 3"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation4"
+                  onChange={[Function]}
+                  placeholder="Coordinate 4"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation5"
+                  onChange={[Function]}
+                  placeholder="Coordinate 5"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation6"
+                  onChange={[Function]}
+                  placeholder="Coordinate 6"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation7"
+                  onChange={[Function]}
+                  placeholder="Coordinate 7"
+                  type="text"
+                />,
+                <br />,
+                <input
+                  name="battleshipLocation8"
+                  onChange={[Function]}
+                  placeholder="Coordinate 8"
                   type="text"
                 />,
                 <br />,
@@ -719,6 +1695,16 @@ ShallowWrapper {
                 "rendered": null,
                 "type": "br",
               },
+              "The Submarine:",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -796,6 +1782,348 @@ ShallowWrapper {
                   "name": "submarineLocation4",
                   "onChange": [Function],
                   "placeholder": "Coordinate 4",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              "The Destroyer:",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "destroyerLocation1",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 1",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "destroyerLocation2",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 2",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "destroyerLocation3",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 3",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "destroyerLocation4",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 4",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "destroyerLocation5",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 5",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "destroyerLocation6",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 6",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              "The Battleship:",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation1",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 1",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation2",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 2",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation3",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 3",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation4",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 4",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation5",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 5",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation6",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 6",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation7",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 7",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "battleshipLocation8",
+                  "onChange": [Function],
+                  "placeholder": "Coordinate 8",
                   "type": "text",
                 },
                 "ref": null,
