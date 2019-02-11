@@ -187,16 +187,19 @@ export class BoatLocationForm extends React.Component {
         <br></br><input type="text" name="dinghyLocation1" placeholder="Coordinate 1" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="dinghyLocation2" placeholder="Coordinate 2" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="dinghyLocation3" placeholder="Coordinate 3" onChange={(e) => this.handleChange(e)}></input>
+        <br></br>The Submarine:
         <br></br><input type="text" name="submarineLocation1" placeholder="Coordinate 1" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="submarineLocation2" placeholder="Coordinate 2" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="submarineLocation3" placeholder="Coordinate 3" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="submarineLocation4" placeholder="Coordinate 4" onChange={(e) => this.handleChange(e)}></input>
+        <br></br>The Destroyer:
         <br></br><input type="text" name="destroyerLocation1" placeholder="Coordinate 1" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="destroyerLocation2" placeholder="Coordinate 2" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="destroyerLocation3" placeholder="Coordinate 3" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="destroyerLocation4" placeholder="Coordinate 4" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="destroyerLocation5" placeholder="Coordinate 5" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="destroyerLocation6" placeholder="Coordinate 6" onChange={(e) => this.handleChange(e)}></input>
+        <br></br>The Battleship:
         <br></br><input type="text" name="battleshipLocation1" placeholder="Coordinate 1" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="battleshipLocation2" placeholder="Coordinate 2" onChange={(e) => this.handleChange(e)}></input>
         <br></br><input type="text" name="battleshipLocation3" placeholder="Coordinate 3" onChange={(e) => this.handleChange(e)}></input>
