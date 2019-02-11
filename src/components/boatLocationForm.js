@@ -35,17 +35,17 @@ export class BoatLocationForm extends React.Component {
   }
 
   handleChange(event) {
-        this.setState({[event.target.name]: event.target.value})
-        console.log(this.state)
+    this.setState({[event.target.name]: event.target.value})
+    console.log(this.state)
   }
 
   handleSubmit(event) {
     var locations = [this.state.dinghyLocation1, this.state.dinghyLocation2, this.state.dinghyLocation3, this.state.submarineLocation1, this.state.submarineLocation2, this.state.submarineLocation3, this.state.submarineLocation4, this.state.destroyerLocation1, this.state.destroyerLocation2, this.state.destroyerLocation3, this.state.destroyerLocation4, this.state.destroyerLocation5, this.state.destroyerLocation6, this.state.battleshipLocation1, this.state.battleshipLocation2, this.state.battleshipLocation3, this.state.battleshipLocation4, this.state.battleshipLocation5, this.state.battleshipLocation6, this.state.battleshipLocation7, this.state.battleshipLocation8]
     let clonedAllPlayerLocations = this.state.allPlayerLocations
-    var i;
+    var i
     for (i = 0; i < locations.length; i++) {
       var location = locations[i]
-      clonedAllPlayerLocations[location] = "X";
+      clonedAllPlayerLocations[location] = "X"
     }
     this.setState({allPlayerLocations: clonedAllPlayerLocations})
     event.preventDefault()
