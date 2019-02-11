@@ -1,1 +1,24 @@
+table, td {
+  border: 1px solid black;
+  table-layout: fixed
+}
 
+table {
+  border-collapse: collapse;
+  width: 100%
+}
+
+th, tr {
+  height: 50px;
+  text-align: center;
+}
+
+td {
+  background-color: #868181;
+}
+
+div {
+  font-weight: bold
+}
+
+td:hover {background-color: #C8C3C3}
