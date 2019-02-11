@@ -29,11 +29,6 @@ ShallowWrapper {
             <tr>
               <th>
                 <Square
-                  value="h"
-                />
-              </th>
-              <th>
-                <Square
                   value="e"
                 />
               </th>
@@ -51,6 +46,9 @@ ShallowWrapper {
                 <Square
                   value="o"
                 />
+              </th>
+              <th>
+                <Square />
               </th>
               <th>
                 <Square />
@@ -248,11 +246,6 @@ ShallowWrapper {
             <tr>
               <th>
                 <Square
-                  value="h"
-                />
-              </th>
-              <th>
-                <Square
                   value="e"
                 />
               </th>
@@ -270,6 +263,9 @@ ShallowWrapper {
                 <Square
                   value="o"
                 />
+              </th>
+              <th>
+                <Square />
               </th>
               <th>
                 <Square />
@@ -461,11 +457,6 @@ ShallowWrapper {
             <tr>
               <th>
                 <Square
-                  value="h"
-                />
-              </th>
-              <th>
-                <Square
                   value="e"
                 />
               </th>
@@ -483,6 +474,9 @@ ShallowWrapper {
                 <Square
                   value="o"
                 />
+              </th>
+              <th>
+                <Square />
               </th>
               <th>
                 <Square />
@@ -674,11 +668,6 @@ ShallowWrapper {
               <tr>
                 <th>
                   <Square
-                    value="h"
-                  />
-                </th>
-                <th>
-                  <Square
                     value="e"
                   />
                 </th>
@@ -696,6 +685,9 @@ ShallowWrapper {
                   <Square
                     value="o"
                   />
+                </th>
+                <th>
+                  <Square />
                 </th>
                 <th>
                   <Square />
@@ -885,11 +877,6 @@ ShallowWrapper {
                 "children": Array [
                   <th>
                     <Square
-                      value="h"
-                    />
-                  </th>,
-                  <th>
-                    <Square
                       value="e"
                     />
                   </th>,
@@ -923,33 +910,13 @@ ShallowWrapper {
                   <th>
                     <Square />
                   </th>,
+                  <th>
+                    <Square />
+                  </th>,
                 ],
               },
               "ref": null,
               "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <Square
-                      value="h"
-                    />,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "value": "h",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  "type": "th",
-                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -1035,6 +1002,27 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "value": "o",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Square />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "value": undefined,
                     },
                     "ref": null,
                     "rendered": null,
@@ -2440,11 +2428,6 @@ ShallowWrapper {
               <tr>
                 <th>
                   <Square
-                    value="h"
-                  />
-                </th>
-                <th>
-                  <Square
                     value="e"
                   />
                 </th>
@@ -2462,6 +2445,9 @@ ShallowWrapper {
                   <Square
                     value="o"
                   />
+                </th>
+                <th>
+                  <Square />
                 </th>
                 <th>
                   <Square />
@@ -2659,11 +2645,6 @@ ShallowWrapper {
               <tr>
                 <th>
                   <Square
-                    value="h"
-                  />
-                </th>
-                <th>
-                  <Square
                     value="e"
                   />
                 </th>
@@ -2681,6 +2662,9 @@ ShallowWrapper {
                   <Square
                     value="o"
                   />
+                </th>
+                <th>
+                  <Square />
                 </th>
                 <th>
                   <Square />
@@ -2872,11 +2856,6 @@ ShallowWrapper {
               <tr>
                 <th>
                   <Square
-                    value="h"
-                  />
-                </th>
-                <th>
-                  <Square
                     value="e"
                   />
                 </th>
@@ -2894,6 +2873,9 @@ ShallowWrapper {
                   <Square
                     value="o"
                   />
+                </th>
+                <th>
+                  <Square />
                 </th>
                 <th>
                   <Square />
@@ -3085,11 +3067,6 @@ ShallowWrapper {
                 <tr>
                   <th>
                     <Square
-                      value="h"
-                    />
-                  </th>
-                  <th>
-                    <Square
                       value="e"
                     />
                   </th>
@@ -3107,6 +3084,9 @@ ShallowWrapper {
                     <Square
                       value="o"
                     />
+                  </th>
+                  <th>
+                    <Square />
                   </th>
                   <th>
                     <Square />
@@ -3296,11 +3276,6 @@ ShallowWrapper {
                   "children": Array [
                     <th>
                       <Square
-                        value="h"
-                      />
-                    </th>,
-                    <th>
-                      <Square
                         value="e"
                       />
                     </th>,
@@ -3334,33 +3309,13 @@ ShallowWrapper {
                     <th>
                       <Square />
                     </th>,
+                    <th>
+                      <Square />
+                    </th>,
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": <Square
-                        value="h"
-                      />,
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "class",
-                      "props": Object {
-                        "value": "h",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    "type": "th",
-                  },
                   Object {
                     "instance": null,
                     "key": undefined,
@@ -3446,6 +3401,27 @@ ShallowWrapper {
                       "nodeType": "class",
                       "props": Object {
                         "value": "o",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Square />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "value": undefined,
                       },
                       "ref": null,
                       "rendered": null,
